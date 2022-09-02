@@ -1,0 +1,22 @@
+/* Los CSS se leen de arriba a abajo se superponen 
+la jerarquia va de id a clase a etiqueta
+            (1,0,0)
+            (0,1,0)
+            (0,0,1)
+        4° Nivel de especifidad es style en el html
+        5° "!important"
+    Una buena práctica es evitar la super posición de elementos*/
+
+
+#h1-id {
+    color: red;
+}
+.h1-class {
+    color: aqua;
+}
+h1 {
+    color: blue !important;
+}
+p {
+    color: red;
+}

@@ -1,0 +1,26 @@
+/* El punto señala la clase; sino lo posee se aplica
+de manera homogenea */
+.div-1, .div-2 {
+    background-color: red;
+    /* Por defecto display: block */
+}
+
+.span-1 {
+    background-color: aqua;
+    /* Por defecto display: inline */
+    float: right;
+}
+.span-2 {
+    background-color: aqua;
+    /* Por defecto display: inline */
+    /* Float ubica en los extremos */
+    float: left;
+}
+
+
+.img {
+    width: 50px;
+    height: 50px;
+    /* Por defecto display: inline-block; permite trabajar
+    la altura y la anchura */
+}

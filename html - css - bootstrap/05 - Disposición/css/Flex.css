@@ -1,0 +1,38 @@
+/* Display flex, todo lo que contiene 
+    lo distribuye de manera ordenada
+    justify-content = posiciona según los ejes 
+    center/start/end/space-between/space-around
+    flex-wrap=redimensiona en función de la pantalla
+            propiedad nowarp/wrap (mantiene las dimensiones de los elementos)
+    alinear los elementos: align-items/center
+    flex-direction = deterinar el eje principal
+    */
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    height: 300px;
+    justify-content: space-around;
+    align-items: flex-start;
+    /* flex-wrap: wrap; */
+}
+
+.contenido-1 {
+    background-color: bisque;
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid greenyellow
+}
+.contenido-2 {
+    background-color: bisque;
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid greenyellow
+}
+.contenido-3 {
+    background-color: bisque;
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid greenyellow
+}

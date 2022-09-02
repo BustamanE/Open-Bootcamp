@@ -1,0 +1,52 @@
+h1 {
+    color: coral;
+}
+
+/* P/ agregar comentario
+La estructura de cada llave es;
+clave - valor;
+Propiedad - valor;
+Se ejecutan en orden y; 
+si hay dos propiedades iguales se superponen;
+font-size= P/ el tamaño del texto; 
+Al tamaño se le añada pt*/
+
+p {
+    color: blue;
+    font-size: 16pt;
+}
+
+/* Selector de id # */
+
+#primera-noticia {
+    color: blueviolet;
+    font-size: 35pt;
+}
+
+#segunda-noticia {
+    color: blue;
+}
+
+/* Selector de clase */
+.Encabezado {
+    font-size: 24pt;
+    text-transform: uppercase;
+}
+
+/* Selector universal * se aplica a todos
+los elementos o todos los elementos que cumpla condiciones;
+La condición es que este mencionado con la clase;
+*/
+
+*.warning {
+    color: red;
+}
+
+/* para modificar fuentes;
+    Si se agregan "," entre los selectores ;
+    Se aplicaran el estilo */
+
+.Autor, .Fecha, .Ubicación {
+    text-decoration: underline;
+}
+

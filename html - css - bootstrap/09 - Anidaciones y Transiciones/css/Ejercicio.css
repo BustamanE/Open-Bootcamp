@@ -1,0 +1,21 @@
+/* Alineado */
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-modern {
+    border: solid 1px transparent;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.btn-modern:hover {
+    transform: translateY(-5px);
+    background-color: cadetblue;
+    color: black;
+    box-shadow: 0 5px 10px rgba(50, 210, 250, 0,5);
+}

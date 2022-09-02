@@ -1,0 +1,41 @@
+body {
+    padding: 20px;
+    margin: 0;
+}
+
+.escenario {
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.escenario-1 {
+    width: 100%;
+}
+
+.escenario-2 {
+    width: 50%;
+}
+
+.px {
+    background-color: green;
+    width: 200px;
+    /* Es una unida fija, independiente del padre 
+    donde este metido, siempre tendra la misma unidad */
+}
+
+.porcentaje {
+    background-color: red;
+    width: 50%;
+    /* Hace referencia al elemento padre -div de clase escenario-
+    el porcentaje en relación del div  */
+}
+
+.view {
+    background-color: yellow;
+    width: 50vw;
+    /* 50 del ancho de la pantalla 'view width', 'view height' 
+    la página. No se puede centrar en el uso de vw y vh; aunque cada dispo
+    tenga un ancho determinado.
+    Los px de html son px lógicos puede ser distintos en cada movil*/
+}

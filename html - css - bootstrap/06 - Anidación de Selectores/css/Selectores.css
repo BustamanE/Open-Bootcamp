@@ -1,0 +1,14 @@
+/* Es una manera de anicar mediante la clase a una etiqueta
+que se encuentra dentro de aquella clase. Se puede hacer referencia
+tanto a clase como etiquetas e id's */
+
+/* Pseudoclases se usa p/ hacer referencia a distintos estados
+dentro del html similar al hober.   */
+
+body section.main .contenedor p {
+    color: green;
+}
+
+.contenedor #boton-contenedor {
+    background-color: yellow;
+}

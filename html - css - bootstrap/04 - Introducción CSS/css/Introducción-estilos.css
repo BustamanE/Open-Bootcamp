@@ -1,0 +1,63 @@
+/*Se pueden definir los colores que se quieran 
+    Se lo puede hacer mediante valores hexadedcimal
+    rgb y rgba(lo define la opacidad)*/
+
+
+
+.Colores {
+    color: red;
+}
+
+.color-hexadecimal {
+    color: #8BE8CB
+}
+
+.color-rgb {
+    color: rgb(100, 33, 55);
+}
+
+.color-rgba {
+    color: rgba(33, 12, 55, 0.05);
+}
+
+/* Fondos */
+.fondo {
+    /*background-color: goldenrod;*/
+    background-image: url(https://fondosmil.com/fondo/588.jpg);
+    background-position: center center;
+}
+
+.fondo-interno {
+    background-image: url(Recursos/Pawel\ Czerwinski.jpg);
+    background-position: center center;
+}
+
+/*Tamaños
+    trabajar con px no es responsive*/
+
+.ancho {
+    background-color: chartreuse;
+    width: 100px;
+}
+
+.alto {
+    background-color: aquamarine;
+    height: 200px;
+}
+/* padding es el intervalo interno, entre los bordes 
+y el contenido. Los valores que se igresan son
+primero - arriba /// vale x 4
+segundo - dercha /// vale por 2
+tercero - abajo 
+cuarto - izquierda SENTIDO DEL RELOJ
+    margin es el espacio externo con respecto resto de 
+elementos del html*/
+
+.tarjeta {
+    border-style: solid;
+    border-color: darkorchid;
+    border-width: 1px;
+    /*border-top: none;*/
+    padding: 10px 20px;
+    margin: 10px 20px;
+}

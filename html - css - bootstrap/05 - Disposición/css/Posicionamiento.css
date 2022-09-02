@@ -1,0 +1,47 @@
+/* La importancia del posicionamiento estático
+no deberia editarse. Ya que es por defecto */
+div {
+    border:1px solid grey;
+    padding: 5px;
+    margin: 5px;
+    background-color: white;
+}
+/* Permite posicionarlo en relación 
+el posicionamiento original*/
+.relative {
+    position: relative;
+    left: 80px;
+    margin-left: 10px;
+}
+/* Posicionamiento fijo.
+Independiente del scroll y de nosotros 
+se mantendra en el mismo sitio 
+z-index = dice el posicionamiento de otros elementos*/
+.fixed {
+    position: fixed;
+    bottom: 0px;
+    left:0px;
+    z-index: 10;
+}
+
+/* Posicionamiento absoluto */
+.absolute {
+    position: absolute;
+    top: 0px;
+}
+
+.relative.contenedor {
+    width: 300px;
+    height: 800px;
+    background-color: red;
+}
+/* Posicionamiento pegajoso
+    Recomendable p/ menus de navegación
+    siempre este visible*/
+.sticky {
+    background-color: blueviolet;
+    position: sticky;
+    color: aliceblue;
+    top: 0px;
+    z-index: 2;
+}
